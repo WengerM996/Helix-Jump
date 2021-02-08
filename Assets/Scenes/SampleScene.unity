@@ -20,9 +20,9 @@ RenderSettings:
   m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 1, g: 1, b: 1, a: 1}
-  m_AmbientEquatorColor: {r: 1, g: 1, b: 1, a: 1}
-  m_AmbientGroundColor: {r: 1, g: 1, b: 1, a: 1}
+  m_AmbientSkyColor: {r: 0.29803923, g: 0.3019608, b: 0.54901963, a: 1}
+  m_AmbientEquatorColor: {r: 0.9137255, g: 0.7647059, b: 0.7647059, a: 1}
+  m_AmbientGroundColor: {r: 0.77254903, g: 0.67058825, b: 0.6666667, a: 1}
   m_AmbientIntensity: 1
   m_AmbientMode: 1
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
@@ -344,12 +344,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 082abf52c2b29804abbba31b848f6845, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _levelCount: 500
+  _levelCount: 10
   _additionalScale: 3
   _beam: {fileID: 8805464229764901690, guid: 7cbd40e041a811d41b4280a44b3e28f8, type: 3}
   _spawnPlatform: {fileID: -5621009163561814884, guid: 5061f6b126449eb478b77125d60bca9b, type: 3}
   _platform:
-  - {fileID: 1210040227246058420, guid: 082d1d1cae4034d489244da2a0a63500, type: 3}
+  - {fileID: 1210040227246058420, guid: c8b246553cac57446b838e67909c808c, type: 3}
+  - {fileID: 1210040227246058420, guid: f320116a3b01ed64cb82f8e14f94623c, type: 3}
+  - {fileID: 1210040227246058420, guid: 5a666189dcdeb174cb1565447e549770, type: 3}
+  - {fileID: 1210040227246058420, guid: a349d72529d842b4aa722af4f875065b, type: 3}
   _finishPlatform: {fileID: 1406336559280262897, guid: abb2fece6a0995b469b8a3b2802ec45d, type: 3}
 --- !u!4 &1069301093
 Transform:

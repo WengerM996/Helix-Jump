@@ -9,7 +9,6 @@ public class PlatformSegment : MonoBehaviour
         {
             rigidbody.isKinematic = false;
             rigidbody.AddExplosionForce(force, centre, radius);
-            Destroy(gameObject, 2f);
         }
     }
 }
